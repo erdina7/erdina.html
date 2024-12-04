@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vacation Dump</title>
+    <style>
+        
+        body {
+            font-vacation: Times new roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #A0C883;
+        }
+
+        header, footer {
+            background-color: #639340;
+            color: #fff;
+            text-align: center;
+            padding: 29px 0;
+        }
+
+        main {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        video {
+            width: 90%; 
+            height: auto; 
+            max-height: 80vh; 
+            margin: 20px auto;
+            display: block; 
+            border-radius: 10px; 
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vacation Dump</h1>
+    </header>
+    <main>
+        <!-- Full-Screen Video -->
+        <video controls autoplay>
+            <source src="vacay.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </main>
+    <footer>
+        <p>&copy; Vacation Memories 2024</p>
+    </footer>
+</body>
+</html>
